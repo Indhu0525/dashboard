@@ -19,12 +19,17 @@
   border-color: #e5e7eb;
   /* 2 */
 }
+.mbdot{
+  margin-bottom: 45px;
+}
 
 ::before,
 ::after {
   --tw-content: '';
 }
-
+.margiright{
+margin-right: 20px;
+}
 /*
 1. Use a consistent sensible line-height in all browsers.
 2. Prevent adjustments of font size after orientation changes in iOS.
