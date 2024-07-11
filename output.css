@@ -96,6 +96,9 @@ abbr:where([title]) {
   -webkit-text-decoration: underline dotted;
           text-decoration: underline dotted;
 }
+.ricon {
+  height:50%;
+}
 
 /*
 Remove the default font size and weight for headings.
