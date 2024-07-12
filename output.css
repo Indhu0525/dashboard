@@ -117,7 +117,9 @@ h6 {
 /*
 Reset links to optimize for opt-in styling instead of opt-out.
 */
-
+.fontsize{
+  font-size: 12px;
+}
 a {
   color: inherit;
   text-decoration: inherit;
@@ -447,7 +449,12 @@ video {
   max-width: 100%;
   height: auto;
 }
-
+.fontfam{
+  font-family: sans-serif;
+}
+.fonts{
+  font-size: 13px;
+}
 /* Make elements with the HTML hidden attribute stay hidden by default */
 
 [hidden] {
