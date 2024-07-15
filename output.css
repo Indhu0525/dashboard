@@ -22,7 +22,9 @@
 .mbdot{
   margin-bottom: 45px;
 }
-
+.mainclass{
+  height: auto;
+}
 ::before,
 ::after {
   --tw-content: '';

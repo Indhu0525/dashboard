@@ -13,13 +13,13 @@
 <body class="bg-gray-100">
    <div class="h-screen flex bg-gray-100  ">
     <!--sidebar-->
-    <div class="w-[calc(100%-85%)] ">
+    <div class="w-[calc(100%-85%)] h-auto">
   
             
 <div class="flex hidden 2xl:flex lg:flex flex-col h-screen bg-gray-50">
    <!--sidebar header-->      
-  <div class="flex align-center justify-between px-6 py-6 bg-white">
-      <div class="flex items-center gap-2.5 relative px-8 py-2 text-black-600">
+  <div class="flex align-center justify-between px-6 py-6 bg-white sticky top-0 z-10 ">
+      <div class="flex items-center gap-2.5 relative px-8 py-2 text-black-600 ">
           <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-clipboard-plus-fill " viewBox="0 0 16 16">
               <path d="M6.5 0A1.5 1.5 0 0 0 5 1.5v1A1.5 1.5 0 0 0 6.5 4h3A1.5 1.5 0 0 0 11 2.5v-1A1.5 1.5 0 0 0 9.5 0zm3 1a.5.5 0 0 1 .5.5v1a.5.5 0 0 1-.5.5h-3a.5.5 0 0 1-.5-.5v-1a.5.5 0 0 1 .5-.5z"></path>
               <path d="M4 1.5H3a2 2 0 0 0-2 2V14a2 2 0 0 0 2 2h10a2 2 0 0 0 2-2V3.5a2 2 0 0 0-2-2h-1v1A2.5 2.5 0 0 1 9.5 5h-3A2.5 2.5 0 0 1 4 2.5zm4.5 6V9H10a.5.5 0 0 1 0 1H8.5v1.5a.5.5 0 0 1-1 0V10H6a.5.5 0 0 1 0-1h1.5V7.5a.5.5 0 0 1 1 0"></path>
@@ -29,7 +29,7 @@
   </div>
    <!--sidebar content-->    
   <!-- Button   -->
-   <div class="overflow-x-scroll">
+   <div class="">
   <div class="flex flex-col align-center justify-center px-6 py-6 bg-gray-50">
       <div class="flex items-center gap-2.5 relative px-4 py-4 text-violet-600">
           <button class="bg-purple-700 text-white gap-2.5 flex  py-2 px-4 fontsize rounded-lg fontfam">
@@ -140,9 +140,9 @@
          <!--main content area-->
     <div class="w-full">
       <!--contentarea header--> 
-      <div class="flex flex-col bg-white">   
+      <div class="flex flex-col bg-white sticky top-0 z-10 ">   
       
-      <div class="flex align-center justify-between px-6 py-6">
+      <div class="flex align-center relative justify-between px-6 py-6">
    
              <div class="flex items-center relative px-4 py-2 text-gray-100">
               <svg viewBox="0 0 24 24"  width="16" height="16" fill="none" xmlns="http://www.w3.org/2000/svg" stroke="#8b8989"><g id="SVGRepo_bgCarrier" stroke-width="0"></g><g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g><g id="SVGRepo_iconCarrier"> <path d="M15.7955 15.8111L21 21M18 10.5C18 14.6421 14.6421 18 10.5 18C6.35786 18 3 14.6421 3 10.5C3 6.35786 6.35786 3 10.5 3C14.6421 3 18 6.35786 18 10.5Z" stroke="#8b8989" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path> </g></svg>
@@ -165,11 +165,11 @@
          </div>
       </div>
       </div>
-      <main class="mx-4 md:mx-8 lg:mx-8 2xl:mx-10 overflow-">
+      <main class="mainclass mx-4 md:mx-8 lg:mx-8 2xl:mx-10 mt-5 mb-5">
         <!--contenttop-->
-     <div class=" w-full mt-5 ">
+     <div class=" w-full mt-10 mb-10">
       <div class="flex flex-wrap ">
-        <div class="w-full sm:w-1/2 lg:w-1/4 px-2 mb-4">
+        <div class="w-full sm:w-1/2 lg:w-1/4 pr-4">
           <div class="bg-white rounded-lg shadow-md">
             <div class="text-gray-400 flex justify-end p-2 pr-4 pt-4">
               <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-three-dots" viewBox="0 0 16 16">
@@ -190,7 +190,7 @@
           </div>
         </div>
       
-        <div class="w-full sm:w-1/2 lg:w-1/4 px-2 mb-4">
+        <div class="w-full sm:w-1/2 lg:w-1/4 px-4">
           <div class="bg-white rounded-lg shadow-md">
             <div class="text-gray-400 flex justify-end p-2 pr-4 pt-4">
               <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-three-dots" viewBox="0 0 16 16">
@@ -211,7 +211,7 @@
           </div>
         </div>
       
-        <div class="w-full sm:w-1/2 lg:w-1/4 px-2 mb-4">
+        <div class="w-full sm:w-1/2 lg:w-1/4 px-4">
           <div class="bg-white rounded-lg shadow-md">
             <div class="text-gray-400 flex justify-end p-2 pr-4 pt-4">
               <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-three-dots" viewBox="0 0 16 16">
@@ -234,7 +234,7 @@
           </div>
         </div>
       
-        <div class="w-full sm:w-1/2 lg:w-1/4 px-2 mb-4">
+        <div class="w-full sm:w-1/2 lg:w-1/4 pl-4">
           <div class="bg-white rounded-lg shadow-md">
             <div class="text-gray-400 flex justify-end p-2 pr-4 pt-4">
               <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-three-dots" viewBox="0 0 16 16">
@@ -255,9 +255,9 @@
       </div>
      </div>
       <!--contentbetween-->
-      <div class=" w-full mt-5 ">
+      <div class=" w-full mb-10">
         <div class="flex flex-wrap ">
-          <div class="flex flex-col lg:flex-row space-y-4 lg:space-y-0 lg:space-x-4 w-full">
+          <div class="flex flex-col lg:flex-row space-y-4 lg:space-y-0 lg:space-x-8 w-full">
             <div class="w-full lg:w-3/4 2xl:w-2/3 bg-white rounded-lg ">
               <div class="flex items-center justify-between gap-3 ">
                 <div>
@@ -293,9 +293,9 @@
 </div>
       </div>
         <!--contentend-->
-        <div class=" w-full mt-5 ">
+        <div class=" w-full mb-10 ">
           <div class="flex flex-wrap ">
-            <div class="flex flex-col lg:flex-row space-y-4 lg:space-y-0 lg:space-x-4 w-full">
+            <div class="flex flex-col lg:flex-row space-y-4 lg:space-y-0 lg:space-x-8 w-full">
               <div class="w-full lg:w-2/4 2xl:w-2/3 bg-white rounded-lg ">
                 <div class="flex items-center justify-between">
                   <div>
@@ -405,6 +405,10 @@
          
   </div>
         </div>
-       
+        </div>
+      </main>
+      </div>
+    
+   </div>
 </body>
 </html>
