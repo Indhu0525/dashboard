@@ -29,8 +29,21 @@
 ::after {
   --tw-content: '';
 }
+.height-header{
+  height: calc(100vh - 82vh);
+}
+.content {
+  height: calc(100vh - 60px); /* 100% viewport height minus header height */
+  overflow-y: auto; /* Enable vertical scrolling */
+}
+.height-main{
+  height: calc(100vh - 18vh);
+}
 .margiright{
 margin-right: 20px;
+}
+.margintop{
+ margin-top: 59px;;
 }
 /*
 1. Use a consistent sensible line-height in all browsers.
